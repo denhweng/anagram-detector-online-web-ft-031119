@@ -11,4 +11,5 @@ class Anagram
     array.select do |elements|
     array.split("").sort == elements.split("").sort
   end
+  end
 end
